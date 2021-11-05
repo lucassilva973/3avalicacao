@@ -1,0 +1,12 @@
+release/gestao_cadastro.o
+release/gestao_inserir.o
+release/gestao_log.o
+release/gestao_remover.o
+release/main.o
+release/janela_principal.o
+release/qrc_ArquivoDeRecursos.o
+release/moc_gestao_cadastro.o
+release/moc_gestao_inserir.o
+release/moc_gestao_log.o
+release/moc_gestao_remover.o
+release/moc_janela_principal.o

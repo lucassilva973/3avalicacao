@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gestao_cadastro</class>
+ <widget class="QDialog" name="gestao_cadastro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>336</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color:#000;
+}
+
+
+QLineEdit{
+background-color:#fff;
+color:#000;
+padding:10px;
+border-radius:10px;
+borde:1px solid #fff;
+}
+
+QLabel{
+color:#fff
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_6">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Codígo</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="cad_cod_line"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Nome</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="cad_nome_line"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Quantidade</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="cad_qte_line"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="cad_btn_voltar">
+         <property name="text">
+          <string>Voltar</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cad_btn_limpar">
+         <property name="text">
+          <string>Limpar</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cad_btn_cadastro">
+         <property name="text">
+          <string>Cadastrar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

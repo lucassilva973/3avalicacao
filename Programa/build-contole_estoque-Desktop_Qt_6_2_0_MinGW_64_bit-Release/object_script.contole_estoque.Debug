@@ -1,0 +1,12 @@
+debug/gestao_cadastro.o
+debug/gestao_inserir.o
+debug/gestao_log.o
+debug/gestao_remover.o
+debug/main.o
+debug/janela_principal.o
+debug/qrc_ArquivoDeRecursos.o
+debug/moc_gestao_cadastro.o
+debug/moc_gestao_inserir.o
+debug/moc_gestao_log.o
+debug/moc_gestao_remover.o
+debug/moc_janela_principal.o

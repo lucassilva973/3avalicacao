@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>icones/cadastro.png</file>
+        <file>icones/perto.png</file>
+        <file>icones/sair.png</file>
+        <file>icones/sobre.png</file>
+        <file>icones/verificado.png</file>
+        <file>icones/delete.png</file>
+        <file>icones/log-file.png</file>
+        <file>icones/mais.png</file>
+    </qresource>
+</RCC>

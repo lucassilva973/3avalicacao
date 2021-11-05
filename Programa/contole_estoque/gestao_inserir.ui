@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gestao_inserir</class>
+ <widget class="QDialog" name="gestao_inserir">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>693</width>
+    <height>347</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color:#000;
+}
+
+
+QLineEdit{
+background-color:#fff;
+color:#000;
+padding:10px;
+border-radius:10px;
+borde:1px solid #fff;
+}
+
+QLabel{
+color:#fff
+}</string>
+  </property>
+  <widget class="QTableWidget" name="tw_gi_mostraPesquisa">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>320</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>121</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#fff</string>
+   </property>
+   <property name="title">
+    <string>Metodo de pesquisa</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>60</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="rb_gi_cod">
+       <property name="styleSheet">
+        <string notr="true">color:#fff</string>
+       </property>
+       <property name="text">
+        <string>Código</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="rb_gi_nome">
+       <property name="styleSheet">
+        <string notr="true">color:#fff</string>
+       </property>
+       <property name="text">
+        <string>Nome</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btn_gi_pesquisar">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>29</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pesquisar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_gi_pesquisa">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>59</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>40</y>
+     <width>311</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Nome do produto</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="txt_gi_nome"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Código do produto</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txt_gi_codigo"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Quantidade em estoque</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txt_gi_qtde_estoque"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Quantidade a adicionar</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txt_gi_qtde_adicionar"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4"/>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QPushButton" name="btn_gi_voltar">
+          <property name="text">
+           <string>Voltar</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_gi_adicionar">
+          <property name="text">
+           <string>Adicionar</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>29</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Todos os produtos</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
